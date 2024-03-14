@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1082976607456",
+    "project_id": "fir-rn-8e9ab",
+    "storage_bucket": "fir-rn-8e9ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082976607456:android:09738b6e37db55f13f0485",
+        "android_client_info": {
+          "package_name": "com.firebasern"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwejmricxdXE27hA9qT8izWTSzWdrNRgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
