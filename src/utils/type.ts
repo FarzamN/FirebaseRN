@@ -50,12 +50,12 @@ export type HeadingType = {
 export type MainInputType = {
   Container?: ViewStyle;
   defaultValue?: string;
-  name?: string;
-  control?: Control<FieldValues>;
-  rules?: RegisterOptions;
+  name: string;
+  control: Control<FieldValues>;
+  rules: RegisterOptions;
   onFocus?: () => void;
   multiline?: boolean;
-  placeholder?: string;
+  placeholder: string;
   keyboardType?: KeyboardTypeOptions;
   password?: boolean;
   label?: TextInputLabelProp;
@@ -97,6 +97,7 @@ export type AuthBodyType = {
   children: ReactNode;
   onPress?: () => void;
   noButton?: boolean;
+  between?: boolean;
 };
 
 export type loaderType = {

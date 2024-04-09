@@ -6,9 +6,9 @@ import style from './style';
 import {AuthBodyType} from '../../utils/type';
 
 const AuthBody: FC<AuthBodyType> = props => {
-  const {heading, sub, children, onPress, title, noButton} = props;
+  const {heading, sub, children, onPress, title, noButton, between} = props;
   return (
-    <ImageBackground>
+    <ImageBackground between={between}>
       <ScrollView
         style={GlobalStyle.Padding}
         showsVerticalScrollIndicator={false}>

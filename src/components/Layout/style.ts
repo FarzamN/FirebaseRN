@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {Constants} from '../../utils';
+import {width} from '../../utils/Constants';
 
 const {create, absoluteFillObject} = StyleSheet;
 export default create({
@@ -10,7 +10,7 @@ export default create({
   },
 
   Image_Box: {
-    width: Constants.width / 2.5,
+    width: width / 2.5,
     aspectRatio: 1 / 1,
     alignSelf: 'center',
     marginBottom: 15,

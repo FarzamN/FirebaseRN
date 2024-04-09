@@ -35,7 +35,7 @@ const Phone = () => {
     control,
     handleSubmit,
     formState: {errors},
-  } = useForm({mode: 'all'}); // Always render useForm hook
+  } = useForm({mode: 'all'});
 
   return (
     <AuthBody heading="Login with Phone" sub="Please login" noButton>
